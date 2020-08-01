@@ -122,7 +122,7 @@ class _developersState extends State<developers> {
                             ),
                           ),
                           Text(
-                            'MANISH KUMAR',
+                            'MANISH KMAR',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 22.5,
