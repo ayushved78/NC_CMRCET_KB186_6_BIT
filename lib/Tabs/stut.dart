@@ -37,7 +37,7 @@ class _stutState extends State<stut> {
 //    'images/states/telangana.jpg',
 //    'images/states/tripura.jpg',
 //    'images/states/uttrakhand.jpg',
-//    'images/states/uttrapradesh.jpg',
+//    'images/states/utrapradesh.jpg',
 //    'images/states/westbengal.jpg',
 //
 //  ];
