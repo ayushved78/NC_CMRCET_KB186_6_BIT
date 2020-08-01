@@ -20,7 +20,7 @@ class _reportsState extends State<reports> {
     {"name": "Haryana", "pic": "haryana.jpg"},
     {"name": "Himachal Pradesh", "pic": "himachal.jpg"},
     {"name": "Jharkhand", "pic": "jharkhand.jpg"},
-    {"name": "UT of J&K", "pic": "kashmir.jpg"},
+    {"name": "UT of J&K", "pic": "kahmir.jpg"},
     {"name": "Karnataka", "pic": "karnataka.jpg"},
     {"name": "Kerala", "pic": "kerala.jpg"},
     {"name": "Madhya Pradesh", "pic": "madhya.jpg"},
