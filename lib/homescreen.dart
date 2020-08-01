@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:testcase/Tabs/reports.dart';
 import 'package:testcase/Tabs/stut.dart';
 import 'package:testcase/Tabs/user.dart';
@@ -54,7 +55,7 @@ class _homescreenState extends State<homescreen> {
                 child: Text('USER'),
               ),
               Tab(
-                icon: Icon(Icons.developer_board),
+                icon: Icon(FontAwesomeIcons.info),
                 child: Text('ABOUT'),
               ),
             ],
