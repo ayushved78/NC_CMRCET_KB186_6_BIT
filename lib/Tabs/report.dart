@@ -17,7 +17,7 @@ class _reportState extends State<report> {
            mainAxisAlignment: MainAxisAlignment.center,
            crossAxisAlignment: CrossAxisAlignment.center,
            children: <Widget>[
-             // State or UT title
+             // State UT title
              Text(
                iconState,
                style: TextStyle(
