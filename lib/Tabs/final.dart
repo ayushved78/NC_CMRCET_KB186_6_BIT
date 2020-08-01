@@ -10,7 +10,7 @@ class _statessState extends State<statess> {
 
   var state_list = [
     {
-      "name": "Andhra Pradesh",
+      "name": "Andhra Praesh",
       "picture": "images/states/andhra.jpg",
       "phone": "0863-2340152" ,
       "email": "cybercrimescid@ap.gov.in" ,
