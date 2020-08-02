@@ -47,7 +47,7 @@ class _reportsState extends State<reports> {
   _stList() async{
     for(var i=0; i<states.length;i++){
       final st = states[i];
-      //final String pic = states["pic"] as String;
+      //final  String pic = states["pic"] as String;
       _stateList.add(
         Container(
           child: Card(
