@@ -8,7 +8,7 @@ class stut extends StatefulWidget {
 
 class _stutState extends State<stut> {
 
-//  final List<String> _listItem = [
+//  final  List<String> _listItem = [
 //    'images/states/andhra.jpg',
 //    'images/states/arunachal.jpg',
 //    'images/states/assam.jpg',
