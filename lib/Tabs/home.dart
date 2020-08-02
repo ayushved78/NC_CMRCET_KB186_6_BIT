@@ -15,7 +15,7 @@ class _homeState extends State<home> {
       child: Carousel(
         images: [
           NetworkImage('https://s27389.pcdn.co/wp-content/uploads/2020/05/taking-responsibility-for-cyber-security-truly-virtual-world-1024x440.jpeg'),
-          //NetworkImage('https://image.flaticon.com/icons/svg/25/25694.svg'),
+          NetworkImage('https://image.flaticon.com/icons/svg/25/25694.svg'),
           NetworkImage('https://cdn2.iconfinder.com/data/icons/computer-63/100/Dev-05-512.png'),
         ],
         autoplay: true,
