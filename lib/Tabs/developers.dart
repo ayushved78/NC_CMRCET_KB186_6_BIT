@@ -42,7 +42,7 @@ class _developersState extends State<developers> {
 
                 Container(
                   child: Image(
-                    image: AssetImage('images/banner.png'),
+                    image: AssetImage('images/poster.png'),
                     width: double.infinity,
                   ),
                 ),
@@ -158,4 +158,3 @@ class _developersState extends State<developers> {
     );
   }
 }
-

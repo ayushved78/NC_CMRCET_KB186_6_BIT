@@ -26,6 +26,10 @@ dependencies:
   carousel_pro: ^1.0.0
   font_awesome_flutter: ^8.8.1
   url_launcher: ^5.5.0
+  firebase_auth: ^0.16.1
+  cloud_firestore: ^0.13.7
+  firebase_core: ^0.4.5
+  firebase_database: ^3.1.6
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +49,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - images/poster.png
+    - images/sihlogo.jpg
+    - images/peclogo.jpg
     - images/states/
     - images/states/andhra.jpg
     - images/states/arunachal.jpg
