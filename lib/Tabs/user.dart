@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:testcase/constant.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+//import 'package:get_ip/get_ip.dart';
 
 
 
@@ -27,6 +28,7 @@ class _UserState extends State<User> {
   String disMessage;
   String sPhoneNo;
   String sName;
+  //String ipAddress = await GetIp.ipAddress;
 
 
 
@@ -106,13 +108,20 @@ class _UserState extends State<User> {
                   color: Colors.red.shade500,
                   textColor: Colors.white,
                   padding: EdgeInsets.all(8.0),
-                  onPressed: () {
-                    phonenoController.clear();
-                    userController.clear();
-                    disputedController.clear();
-                    senderController.clear();
-                    snameController.clear();
-                    //_firestore.collection(path);
+               onPressed: () {
+
+//                    phonenoController.clear();
+//                    userController.clear();
+//                    disputedController.clear();
+//                    senderController.clear();
+//                    snameController.clear();
+                    _firestore.collection('report').add({
+                      'phone': phoneNo,
+                      'uname': uName,
+                      'dmessage': disMessage,
+                      'sphone': sPhoneNo,
+                      'sname': sName,
+                    });
                   },
                   child: Text(
                     "REPORT".toUpperCase(),
