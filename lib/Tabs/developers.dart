@@ -129,7 +129,7 @@ class _developersState extends State<developers> {
                             ),
                           ),
                           Text(
-                            'QAZI FARMAAN ARIF',
+                            'QAZI FARMAN ARIF',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 22.5,
