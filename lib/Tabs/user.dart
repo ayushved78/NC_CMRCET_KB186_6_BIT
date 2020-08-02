@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:testcase/constant.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 //import 'package:get_ip/get_ip.dart';
+import 'dart:io';
 
 
 
@@ -28,7 +29,27 @@ class _UserState extends State<User> {
   String disMessage;
   String sPhoneNo;
   String sName;
+  String _networkInterface;
   //String ipAddress = await GetIp.ipAddress;
+
+  @override
+  void initState() {
+
+    NetworkInterface.list(includeLoopback: false, type: InternetAddressType.any)
+        .then((List<NetworkInterface> interfaces) {
+      setState( () {
+        _networkInterface = "";
+        interfaces.forEach((interface) {
+          _networkInterface += "### name: ${interface.name}\n";
+          int i = 0;
+          interface.addresses.forEach((address) {
+            _networkInterface += "${i++}) ${address.address}\n";
+          });
+        });
+      });
+    });
+    super.initState();
+  }
 
 
 
@@ -110,11 +131,9 @@ class _UserState extends State<User> {
                   padding: EdgeInsets.all(8.0),
                onPressed: () {
 
-//                    phonenoController.clear();
-//                    userController.clear();
-//                    disputedController.clear();
-//                    senderController.clear();
-//                    snameController.clear();
+                    print('NetworkInterface:\n $_networkInterface');
+
+
                     _firestore.collection('report').add({
                       'phone': phoneNo,
                       'uname': uName,
