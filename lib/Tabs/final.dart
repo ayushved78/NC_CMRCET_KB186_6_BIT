@@ -23,7 +23,7 @@ class _statessState extends State<statess> {
 
     },
     {
-      "name": "Asam",
+      "name": "Assam",
       "picture": "images/states/assam.jpg",
       "phone": "0361-2524494" ,
       "email": "digpcid@assampolice.gov.in ",
