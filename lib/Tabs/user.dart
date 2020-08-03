@@ -4,6 +4,7 @@ import 'package:testcase/constant.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 //import 'package:get_ip/get_ip.dart';
 import 'dart:io';
+import 'package:geolocator/geolocator.dart';
 
 
 
@@ -30,6 +31,13 @@ class _UserState extends State<User> {
   String sPhoneNo;
   String sName;
   String _networkInterface;
+
+
+
+  void geoLocation() async{
+    Position position = await Geolocator().getCurrentPosition(desiredAccuracy: LocationAccuracy.bestForNavigation);
+    print(position);
+  }
   //String ipAddress = await GetIp.ipAddress;
 
   @override
@@ -131,7 +139,8 @@ class _UserState extends State<User> {
                   padding: EdgeInsets.all(8.0),
                onPressed: () {
 
-                    print('NetworkInterface:\n $_networkInterface');
+                    print('Network IP address:\n $_networkInterface');
+                    geoLocation();
 
 
                     _firestore.collection('report').add({
