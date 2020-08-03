@@ -22,3 +22,8 @@ Using Flutter we are creating the application launch in both iOS as well as Andr
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
+//IP address
+We have accessed the IP address of all our users and stored it in our cloud_firestone for user security purpose, our target SDK version is 29R (all new set of android devices) and the latest version of iOS 
+This features target a minimum SDK of 25 for android while iOS 9 ffor Apple devices, app won't function properly for devices below our published version. 
+Accessing the IP code has been changed in the buiild.gradle method for android and in info.plist for iOS
+
