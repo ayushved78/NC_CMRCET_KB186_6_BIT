@@ -167,5 +167,25 @@ class _UserState extends State<User> {
   }
 }
 
+/*static double getDistance(List<LatLng> gpsList) {
+double totalDistance = 0.0;
+
+for (var i = 0; i < gpsList.length; i++) {
+var p = 0.017453292519943295;
+var c = cos;
+var a = 0.5 -
+c((gpsList[i + 1].latitude - gpsList[i].latitude) * p) / 2 +
+c(gpsList[i].latitude * p) *
+c(gpsList[i + 1].latitude * p) *
+(1 - c((gpsList[i + 1].longitude - gpsList[i].longitude) * p)) /
+2;
+double distance = 12742 * asin(sqrt(a));
+totalDistance += distance;
+print('Distance is ${12742 * asin(sqrt(a))}');
+}
+print('Total distance is $totalDistance');
+return totalDistance;
+}*/
+
 
 
