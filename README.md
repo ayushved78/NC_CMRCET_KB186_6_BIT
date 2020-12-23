@@ -1,15 +1,28 @@
-# test case 
+# WebBuzz
+# Developers
+Hey everyone we are Team 6_BIT from Pondicherry Engineering College, core members:
+ - Ayush Singh
+ - Abhinant Preman
+ - Qazi Farmaan Arif
+ - Manish kumar Dubb
+ - Rajkumari Kiran
+ - Preetham Sai G.
+ 
+# About
+This application is an open-source application deesigned for SIH-2020 domain KB186 assigned by the Government of Andhra Pradesh.
+This application is programmed using Flutter & Dart. We have used Firebase as backend where the user information is stored. Your information will be provoided to the Cyber Security unit of the particular state or UT. The application provides:
+ - Contact information for the State/UT Cyber Security team, as we know it is tough to gather information when we are in trouble. This application will provide the email adress    as well as the phone number to contact.
+ - The application takes user geo-location so that the Cyber Security team can track you whenver you register a complaint!
+   PS: Your information is safe with us!!
+ 
 
-This application is designed by Team 6_BIT lead by Ayush Singh of Pondicherry Engineering College, Puducherry for SIH 2020 domain KB186 assigned by govt. of Andhra Pradesh. The application provides user the phone number and email address to report cyber cases.The contact details of every cyber cells of each state/UT provided in the application.
+# CODE
 
-
-
-
-//ANDROID
+# ANDROID
 Android user permission for location and IP access with the command code 
 
 
-//IOS
+# IOS
 Using Flutter we are creating the application launch in both iOS as well as Android at the same time and we are storing the user location and IP in cloud_firestone. We have accessed the permission of user location on iOS by changing the info.pist adn now we can access their real time location 
 
 <key>NSLocationWhenInUseUsageDescription</key>
