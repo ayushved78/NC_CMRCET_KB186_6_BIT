@@ -8,40 +8,6 @@ class stut extends StatefulWidget {
 
 class _stutState extends State<stut> {
 
-//  final  List<String> _listItem = [
-//    'images/states/andhra.jpg',
-//    'images/states/arunachal.jpg',
-//    'images/states/assam.jpg',
-//    'images/states/bihar.jpg',
-//    'images/states/chattisgarh.jpg',
-//    'images/states/delhi.jpg',
-//    'images/states/goa.jpg',
-//    'images/states/gujrat.jpg',
-//    'images/states/haryana.jpg',
-//    'images/states/himachal.jpg',
-//    'images/states/jharkhand.jpg',
-//    'images/states/karnataka.jpg',
-//    'images/states/kashmir.jpg',
-//    'images/states/kerala.jpg',
-//    'images/states/madhya.jpg',
-//    'images/states/maharastra.jpg',
-//    'images/states/manipur.jpg',
-//    'images/states/meghalaya.jpg',
-//    'images/states/mizoram.jpg',
-//    'images/states/nagaland.jpg',
-//    'images/states/odisha.jpg',
-//    'images/states/punjab.jpg',
-//    'images/states/rajasthan.jpg',
-//    'images/states/sikkim.jpg',
-//    'images/states/tamilnadu.jpg',
-//    'images/states/telangana.jpg',
-//    'images/states/tripura.jpg',
-//    'images/states/uttrakhand.jpg',
-//    'images/states/utrapradesh.jpg',
-//    'images/states/westbengal.jpg',
-//
-//  ];
-
   @override
   Widget build(BuildContext context) {
 
